@@ -1,5 +1,5 @@
 html, body, div {
-	font-family: Source Sans Pro;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #fff;
 	margin: 0;
 	padding: 0;
@@ -322,7 +322,7 @@ and (min-device-width : 823px)  {
 }
 
 .grid {
-	margin: 0 auto
+	margin: 0 auto;
 	padding: 0;
 	list-style: none;
 	display: block;
