@@ -1,47 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
-		<meta charset=utf-8>
 		<title>Kevin Jiang</title>
 		<link rel="stylesheet" href="css/style.css">
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+
+		<script src="js/transition.js"></script>
 	</head>
 	<body>
-        <div id = "main" class = "center">
-            <h1>Hello world</h1>
-            This will eventually be my personal website, but for now here is a rotating cube made with <a href = "https://threejs.org/">three.js</a>!
-            <br/>
-        </div>
-
-		<script src="js/three.js"></script>
-		<script>
-			var scene = new THREE.Scene();
-            scene.background = new THREE.Color( 0xfffffff );
-            var light = new THREE.PointLight( 0xff0000, 1, 100 );
-            light.position.set( 50, 50, 50 );
-            scene.add( light );
-
-            var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-            
-            var renderer = new THREE.WebGLRenderer();
-            renderer.setSize(window.innerWidth/2, window.innerHeight/2);
-            document.getElementById("main").appendChild(renderer.domElement);
-            
-            var geometry = new THREE.BoxGeometry(3,3,3);
-            var material = new THREE.MeshBasicMaterial({color: 0x00ff00});
-            var cube = new THREE.Mesh(geometry,material);
-            scene.add(cube);
-            
-            camera.position.z = 5;
-            
-            function animate() {
-                requestAnimationFrame(animate);
-                renderer.render(scene,camera);
-                
-                cube.rotation.x += 0.03;
-                cube.rotation.y += 0.03;
-            }
-            animate();
-            
-		</script>
+		<div class = "wrapper" id = "last-to-animate">
+			<div id = "about">
+				<div class = "preview">
+					<div id = "logoAnimation" class = "animation"></div>
+					<div class = "welcome">Hi, I'm Kevin! This fall, I'll be a senior at Columbia University finishing up my B.A. in Computer Science. I'm particularly fascinated by the intersection of design and artificial intelligence. On the side, I'm a freelance photographer and jazz musician. </div>
+					<ul>
+						<li><a href = "mailto:kevin.jiang@columbia.edu"><img src = "img/email.png"></a></li>
+						<li><a href = "https://github.com/kevinyjiang"><img src = "img/github.png"></a></li>
+						<li><a href = "KevinJiangResume.pdf"><img src = "img/resume.png"></a></li>
+						<li><a href = "https://www.linkedin.com/in/kevin-jiang-profile/"><img src = "img/linkedin.png"></a></li>
+					</ul>
+				</div>
+			</div>
+			<a href = "code.html" class = "fade">
+				<div id = "code" class = "quarter">
+					<div class = "preview">
+						<div id = "codeAnimation" class = "animation"></div>
+						<span class = "title">code</span>
+					</div>
+				</div>
+			</a>
+			<a href = "http://instagram.com/kevinyjiang" class = "fade">
+				<div id = "photo" class = "quarter">
+					<div class = "preview">
+						<div id = "photoAnimation" class = "animation"></div>
+						<span class = "title">photo</span>
+					</div>
+				</div>
+			</a>
+			<a href = "music.html" class = "fade">
+				<div id = "music" class = "quarter">
+					<div class = "preview">
+						<div id = "musicAnimation" class = "animation"></div>
+						<span class = "title">music</span>
+					</div>
+				</div>
+			</a>
+		</div>
+		<script src="js/lottie.js" type="text/javascript"></script>
+        <script src="js/app.js" type="text/javascript"></script>
 	</body>
 </html>
