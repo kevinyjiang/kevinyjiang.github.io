@@ -69,7 +69,3 @@ var musicAnim = lottie.loadAnimation({
 logoAnim.setSpeed(.5);
 codeAnim.setSpeed(.5);
 musicAnim.setSpeed(.5);
-
-var pangea = new Pangea()
-    .register(/\/code.html/, 'last-to-animate', 'animating-to-code-page')
-    .enable();
