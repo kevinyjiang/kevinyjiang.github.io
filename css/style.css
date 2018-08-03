@@ -311,7 +311,7 @@ and (min-device-width : 823px)  {
 }
 
 .gallery {
-	max-width: 960px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -323,7 +323,7 @@ and (min-device-width : 823px)  {
 
 .grid {
 	margin: 0 auto;
-	padding: 0;
+	padding: none;
 	list-style: none;
 	display: block;
 	text-align: center;
@@ -344,6 +344,10 @@ and (min-device-width : 823px)  {
 	height: 280px;
 	display: inline-block;
 	margin: 20px 20px 0 0;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .box {
