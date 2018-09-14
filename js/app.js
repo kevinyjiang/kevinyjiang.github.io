@@ -39,7 +39,7 @@ var logoAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: 'json/logo_only.json',
+  path: 'json/logo.json',
 });
 
 var codeAnim = lottie.loadAnimation({
@@ -47,7 +47,7 @@ var codeAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'json/no_reverse/code.json',
+  path: 'json/code.json',
 });
 
 var photoAnim = lottie.loadAnimation({
@@ -55,7 +55,7 @@ var photoAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'json/no_reverse/photo_new.json',
+  path: 'json/photo.json',
 });
 
 var musicAnim = lottie.loadAnimation({
@@ -63,7 +63,7 @@ var musicAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'json/no_reverse/music_new.json',
+  path: 'json/music.json',
 });
 
 logoAnim.setSpeed(.5);
