@@ -63,7 +63,7 @@ var musicAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'json/no_reverse/music.json',
+  path: 'json/no_reverse/music_new.json',
 });
 
 logoAnim.setSpeed(.5);
