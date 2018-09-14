@@ -184,6 +184,7 @@ div.page {
 	margin: auto;
 	text-align: center;
 	width: 50%;
+	color: #fff;
 }
 
 /* Smartphones in landscape */
@@ -387,8 +388,8 @@ ul {
 	transform: scale(1);
 }
 
-li:hover a img {
-	
+a {
+	font-color: #fff;
 }
 
 .project-blurb {
