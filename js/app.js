@@ -55,7 +55,7 @@ var photoAnim = lottie.loadAnimation({
   renderer: 'svg',
   loop: false,
   autoplay: false,
-  path: 'json/no_reverse/photo.json',
+  path: 'json/no_reverse/photo_new.json',
 });
 
 var musicAnim = lottie.loadAnimation({
