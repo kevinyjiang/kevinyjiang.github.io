@@ -115,9 +115,10 @@ span.title {
 
 #photoAnimation {
   position: relative;
-  width: 60%;
-  height: 60%;
+  width: 43%;
+  height: 43%;
   margin: auto;
+  margin-top: 15px;
   z-index: 1;
 }
 
