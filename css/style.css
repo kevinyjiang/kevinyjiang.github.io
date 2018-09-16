@@ -86,7 +86,7 @@ span.title {
 	height: 50vh;
 	text-align: center;
 	position: relative;
-	background-color: #94C7B6;
+	background-color: #003049;
 	grid-column: 1;
 	grid-row: 1;
 
@@ -163,7 +163,7 @@ span.title {
 }
 
 #code {
-	background-color: #D6E1C7;
+	background-color: #FF6B6B;
 	grid-column: 2;
 	grid-row: 1;
 }
@@ -175,7 +175,7 @@ span.title {
 }
 
 #music {
-	background-color: #FAB87F;
+	background-color: #773344;
 	grid-column: 2;
 	grid-row: 2;
 }
