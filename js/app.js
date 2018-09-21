@@ -66,6 +66,6 @@ var musicAnim = lottie.loadAnimation({
   path: 'json/music.json',
 });
 
-logoAnim.setSpeed(.5);
+logoAnim.setSpeed(.40);
 codeAnim.setSpeed(.5);
 musicAnim.setSpeed(.5);
