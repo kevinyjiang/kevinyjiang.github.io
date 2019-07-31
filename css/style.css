@@ -16,6 +16,7 @@ h1 {
 .wrapper {
 	background-color: #fff;
 	transition: 0.3s ease background;
+	overflow: hidden;
 }
 
 span.title {
